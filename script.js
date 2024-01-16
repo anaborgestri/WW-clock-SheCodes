@@ -22,5 +22,5 @@ function refreshTime() {
   let barcelonaDate = document.querySelector("#threedate");
   barcelonaDate.innerHTML = moment().tz("Europe/Madrid").format("Do MMMM YYYY");
 }
-
+refreshTime();
 setInterval(refreshTime, 1000);
