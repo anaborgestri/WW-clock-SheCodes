@@ -1,9 +1,11 @@
 body {
   background-color: #ebd5d5;
+  font-family: "Ubuntu", sans-serif;
 }
 h1 {
   color: #685454;
   text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
 .container {
   width: 600px;
@@ -12,6 +14,7 @@ h1 {
   margin: 0 auto;
   border-radius: 15px;
   padding: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 #cities {
   width: 500px;
@@ -21,6 +24,7 @@ h1 {
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
   border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
 }
 #cityOne {
   width: 500px;
@@ -30,10 +34,12 @@ h1 {
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
   border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
 }
 .city-one-details {
   display: flex;
   justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
 }
 #cityTwo {
   width: 500px;
@@ -43,6 +49,7 @@ h1 {
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
   border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
 }
 .city-two-details {
   display: flex;
@@ -57,6 +64,7 @@ h1 {
   padding: 0px 10px 0px 10px;
   margin-bottom: 10px;
   border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
 }
 .city-three-details {
   display: flex;
@@ -65,4 +73,5 @@ h1 {
 footer {
   padding: 10px;
   text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
