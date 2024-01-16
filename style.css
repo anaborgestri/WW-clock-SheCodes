@@ -1,7 +1,68 @@
+body {
+  background-color: #ebd5d5;
+}
 h1 {
-  color: blue;
+  color: #685454;
   text-align: center;
 }
+.container {
+  width: 600px;
+  background-color: whitesmoke;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+#cities {
+  width: 500px;
+  height: 50px;
+  background-color: #f2f2f2;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+  border-radius: 15px;
+}
+#cityOne {
+  width: 500px;
+  max-height: 150px;
+  background-color: #f2f2f2;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+  border-radius: 15px;
+}
+.city-one-details {
+  display: flex;
+  justify-content: space-between;
+}
+#cityTwo {
+  width: 500px;
+  max-height: 150px;
+  background-color: #f2f2f2;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+  border-radius: 15px;
+}
+.city-two-details {
+  display: flex;
+  justify-content: space-between;
+}
+#cityThree {
+  width: 500px;
+  max-height: 150px;
+  background-color: #f2f2f2;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.city-three-details {
+  display: flex;
+  justify-content: space-between;
+}
 footer {
+  padding: 10px;
   text-align: center;
 }
