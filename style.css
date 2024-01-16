@@ -39,7 +39,7 @@ h2 {
 }
 .time small {
   font-size: 18px;
-  vertical-align: super;
+  vertical-align: middle;
 }
 #cityOne {
   width: 100%;
