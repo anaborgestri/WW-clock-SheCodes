@@ -118,6 +118,14 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+.backlink {
+  color: #685454;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.backlink:hover {
+  font-weight: bold;
+}
 footer {
   padding: 10px;
   text-align: center;

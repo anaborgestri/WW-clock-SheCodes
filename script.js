@@ -52,7 +52,7 @@ function updateCity(event) {
             </div>
           </div>
           <div class="weather-description">clear sunshine</div>
-        </div>`;
+      <div class="backlink"><a href="index.html">Back to all cities</a></div>`;
 }
 
 let selectCity = document.querySelector("#cities-select");
