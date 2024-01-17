@@ -4,7 +4,7 @@ function refreshTime() {
     .tz("Asia/Tokyo")
     .format("hh:mm:ss [<small>]A[</small>]");
   let tokyoDate = document.querySelector("#onedate");
-  tokyoDate.innerHTML = moment().tz("Asia/Tokyo").format("Do MMMM YYYY");
+  tokyoDate.innerHTML = moment().tz("Asia/Tokyo").format("D MMMM YYYY");
 
   let saopauloTime = document.querySelector("#twotime");
   saopauloTime.innerHTML = moment()
@@ -13,7 +13,7 @@ function refreshTime() {
   let saopauloDate = document.querySelector("#twodate");
   saopauloDate.innerHTML = moment()
     .tz("America/Sao_Paulo")
-    .format("Do MMMM YYYY");
+    .format("D MMMM YYYY");
 
   let barcelonaTime = document.querySelector("#threetime");
   barcelonaTime.innerHTML = moment()
@@ -22,7 +22,7 @@ function refreshTime() {
   let barcelonaDate = document.querySelector("#threedate");
   barcelonaDate.innerHTML = moment()
     .tz("Europe / Madrid")
-    .format("Do MMMM YYYY");
+    .format("D MMMM YYYY");
 }
 refreshTime();
 setInterval(refreshTime, 1000);
